@@ -1,6 +1,6 @@
 # postgres_archive_cleanup
 ==========================
-``delete_archives.sh`` - Delete postgres archive logs on primary based on current applied xlog location on standby db.
+``delete_archives.sh`` - Delete postgres archive logs on primary based on current xlog being applied on standby db.
 
 Syntax
 ======
